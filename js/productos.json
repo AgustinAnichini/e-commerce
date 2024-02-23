@@ -1,0 +1,132 @@
+[
+    {
+        "id": "ron-01",
+        "titulo": "Bacardi carta de oro",
+        "imagen": "./img/ron/bacardi-gold.png",
+        "categoria": {
+            "nombre": "Rones",
+            "id": "Rones"
+        },
+        "precio": 19000
+    },
+    {
+        "id": "ron-02",
+        "titulo": "Bacardi white",
+        "imagen": "./img/ron/bacardi-white.png",
+        "categoria": {
+            "nombre": "Rones",
+            "id": "Rones"
+        },
+        "precio": 19000
+    },
+    {
+        "id": "ron-03",
+        "titulo": "Barcelo añejo",
+        "imagen": "./img/ron/barcelo-anejo.png",
+        "categoria": {
+            "nombre": "Rones",
+            "id": "Rones"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "ron-04",
+        "titulo": "Malibu",
+        "imagen": "./img/ron/malibu.png",
+        "categoria": {
+            "nombre": "Rones",
+            "id": "Rones"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "ron-05",
+        "titulo": "Zacapa",
+        "imagen": "./img/ron/zacapa.png",
+        "categoria": {
+            "nombre": "Rones",
+            "id": "Rones"
+        },
+        "precio": 30000
+    },
+    {
+        "id": "vodka-01",
+        "titulo": "Absolut Original",
+        "imagen": "./img/vodka/absolut.png",
+        "categoria": {
+            "nombre": "Vodkas",
+            "id": "Vodkas"
+        },
+        "precio": 18000
+    },
+    {
+        "id": "vodka-02",
+        "titulo": "Grey Goose",
+        "imagen": "./img/vodka/grey-goose.png",
+        "categoria": {
+            "nombre": "Vodkas",
+            "id": "Vodkas"
+        },
+        "precio": 200000
+    },
+    {
+        "id": "vodka-03",
+        "titulo": "Smirnoff Original",
+        "imagen": "./img/vodka/smirnoff-original.png",
+        "categoria": {
+            "nombre": "Vodkas",
+            "id": "Vodkas"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "vodka-04",
+        "titulo": "Smirnoff raspberry",
+        "imagen": "./img/vodka/smirnoff-raspberry.png",
+        "categoria": {
+            "nombre": "Vodkas",
+            "id": "Vodkas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "gin-01",
+        "titulo": "Bombay",
+        "imagen": "./img/gin/bombay.png",
+        "categoria": {
+            "nombre": "Gines",
+            "id": "Gines"
+        },
+        "precio": 30000
+    },
+    {
+        "id": "gin-02",
+        "titulo": "Bulldog",
+        "imagen": "./img/gin/bulldog.png",
+        "categoria": {
+            "nombre": "Gines",
+            "id": "Gines"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "gin-03",
+        "titulo": "Hendricks",
+        "imagen": "./img/gin/Hendricks.png",
+        "categoria": {
+            "nombre": "Gines",
+            "id": "Gines"
+        },
+        "precio": 70000
+    },
+    {
+        "id": "gin-04",
+        "titulo": "Tanqueray",
+        "imagen": "./img/gin/tanqueray.png",
+        "categoria": {
+            "nombre": "Gines",
+            "id": "Gines"
+        },
+        "precio": 100000
+    }
+]

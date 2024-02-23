@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodega Anichini</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Bodega Anichini</h1>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i
+                                class="bi bi-hand-index-thumb-fill"></i>Todos los
+                            productos</button>
+                    </li>
+
+                    <li>
+                        <button id="Rones" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>Ron</button>
+                    </li>
+
+                    <li>
+                        <button id="Vodkas" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>Vadka</button>
+                    </li>
+
+                    <li>
+                        <button id="Gines" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>Gin</button>
+                    </li>
+
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numero" class="numero">0</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 Bodega Anichini</p>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div id="contendor-productos" class="contendor-productos">
+
+
+            </div>
+        </main>
+
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
