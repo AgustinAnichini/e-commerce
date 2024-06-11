@@ -25,15 +25,15 @@ function cargarProductos(productosElegidos) {
         const div = document.createElement('div');
         div.classList.add('producto');
         div.innerHTML = `
-        <div class="producto">
-              <img class="img-producto" src="${producto.imagen}" alt="${producto.titulo}">
+       <div class="card producto shadow rounded" style="width: 18rem;">
+            <img src="${producto.imagen}" class="card-img-top img-producto" alt="${producto.titulo}">
+            <div class="card-body">
+                <h5 class="card-title">${producto.titulo}</h5>
+                <p class="card-text">$ ${producto.precio}</p>
+                <button id="${producto.id}" class="btn btn-warning comprarProducto">Comprar</button>
+            </div>
+        </div>
 
-                 <div class="info-producto">
-                        <h3 class="titulo-prodcuto">${producto.titulo}</h3>
-                        <p class="precio-producto">$${producto.precio}</p>
-                 <button class="comprar-producto" id="${producto.id}">Comprar</button>
-                </div>
-         </div>
         `
         contenedorProductos.appendChild(div);
     })
@@ -54,13 +54,12 @@ botonesCategorias.forEach(boton => {
             tituloPrincipal.innerText = 'Todos los productos';
             cargarProductos(productos);
         }
-
     })
 });
 
 
 function actualzarBotonesAgregar() {
-    const botonesAgregar = document.querySelectorAll('.comprar-producto')
+    const botonesAgregar = document.querySelectorAll('.comprarProducto')
 
     botonesAgregar.forEach(boton => {
         boton.addEventListener('click', agregarAlCarrito)
@@ -96,3 +95,13 @@ function existenProductos() {
         productosEnCarrito = []
     }
 }
+
+ // <div class="producto">
+        //       <img class="img-producto" src="${producto.imagen}" alt="${producto.titulo}">
+
+        //          <div class="info-producto">
+        //                 <h3 class="titulo-prodcuto">${producto.titulo}</h3>
+        //                 <p class="precio-producto">$${producto.precio}</p>
+        //          <button class="comprar-producto" id="${producto.id}">Comprar</button>
+        //         </div>
+        //  </div>
